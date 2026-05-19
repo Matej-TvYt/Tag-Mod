@@ -1,1 +1,2 @@
 # Tag-Mod
+To make this mod work it's required 2 or more people. All players must have this mod installed for it to work. To start, the host of the server/someone that has access to commands needs to type "/tagstart" in chat, after that a random player in the server is chosen to be the Chaser while all the other players are chosen to have the Runner role. The chaser must hit a runner in order to become a runner while the person he hit becomes the next chaser.
