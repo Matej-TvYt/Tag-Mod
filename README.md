@@ -1,9 +1,52 @@
-**TAG MOD**
+# Tag Mod
 
-A multiplayer Minecraft tag minigame built for Fabric.
+A simple multiplayer Minecraft Fabric mod where players play a real-time tag game with roles: **Chaser** and **Runner**.
 
-One player is randomly selected as the Chaser, while all others become Runners. The Chaser must hit/tag a Runner by hitting them to transfer the role.
+---
 
-The game requires at least 2 players and must be started with /tagstart (requires command permissions).
+## How to begin
 
-All players must have the mod installed in order for it to work.
+- Requires **2+ players**
+- All players must have the mod installed
+- Start the game with:
+  - `/tagstart`
+- Stop the game with:
+  - `/tagstop`
+
+### Gameplay
+- One player is randomly selected as **Chaser**
+- All others are **Runners**
+- If the Chaser hits a Runner:
+  - The Runner becomes the new Chaser
+  - The previous Chaser becomes a Runner
+
+---
+
+## Features
+
+- Real-time role switching
+- HUD messages for role changes
+- Player glow effect for Chaser
+- Simple command-based control
+- Works in multiplayer & LAN
+
+---
+
+## Requirements
+
+- Minecraft **1.21.1**
+- Fabric Loader
+- Fabric API
+
+---
+
+## Important
+
+- All players must install the mod
+- Works only when at least 2 players are online
+
+---
+
+## License
+
+This project is licensed under the MIT License (see LICENSE file)
