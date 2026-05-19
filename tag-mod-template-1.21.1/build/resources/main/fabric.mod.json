@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tag-mod",
+  "version": "1.0.0",
+  "name": "Tag Mod",
+  "description": "Tag game mod",
+  "authors": ["MatejTvYt"],
+  "license": "MIT",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "com.example.tagmod.TagMod"
+    ],
+    "client": [
+      "com.example.tagmod.client.TagModClient",
+      "com.example.tagmod.client.TagEffectsClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
