@@ -24,7 +24,7 @@ A simple multiplayer Minecraft Fabric mod where players play a real-time tag gam
 
 ## Features
 
-- Real-time role switching
+- Role switching
 - HUD messages for role changes
 - Player glow effect for Chaser
 - Simple command-based control
@@ -35,8 +35,7 @@ A simple multiplayer Minecraft Fabric mod where players play a real-time tag gam
 ## Requirements
 
 - Minecraft **1.21.1**
-- Fabric Loader
-- Fabric API
+- Fabric API (mod)
 
 ---
 
