@@ -1,2 +1,9 @@
-# Tag-Mod
-To make this mod work it's required 2 or more people. All players must have this mod installed for it to work. To start, the host of the server/someone that has access to commands needs to type "/tagstart" in chat, after that a random player in the server is chosen to be the Chaser while all the other players are chosen to have the Runner role. The chaser must hit a runner in order to become a runner while the person he hit becomes the next chaser.
+**TAG MOD**
+
+A multiplayer Minecraft tag minigame built for Fabric.
+
+One player is randomly selected as the Chaser, while all others become Runners. The Chaser must hit/tag a Runner by hitting them to transfer the role.
+
+The game requires at least 2 players and must be started with /tagstart (requires command permissions).
+
+All players must have the mod installed in order for it to work.
