@@ -1,6 +1,6 @@
 # Tag Mod
 
-A simple multiplayer Minecraft Fabric mod where players play a real-time tag game with roles: **Chaser** and **Runner**.
+A simple multiplayer Minecraft Fabric mod where players play a tag game with roles: **Chaser** and **Runner**.
 
 ---
 
