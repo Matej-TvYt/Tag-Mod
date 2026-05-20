@@ -10,20 +10,15 @@ public class TagHitHandler {
 
         AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
 
-            if (world.isClient) return ActionResult.PASS;
-
             if (!(player instanceof ServerPlayerEntity attacker)) return ActionResult.PASS;
             if (!(entity instanceof ServerPlayerEntity target)) return ActionResult.PASS;
 
-            if (!TagGame.gameRunning) return ActionResult.PASS;
+            if (!TagGame.isRunning()) return ActionResult.PASS;
 
             if (!TagGame.isChaser(attacker.getUuid())) return ActionResult.PASS;
 
-            if (TagGame.hasProtection(target.getUuid())) return ActionResult.FAIL;
-
-            if (attacker.getUuid().equals(target.getUuid())) return ActionResult.PASS;
-
-            TagGame.onTagged(attacker.getServer(), target.getUuid());
+            // ROLE TRANSFER HAPPENS HERE
+            TagGame.transferChase(attacker.getServer(), target.getUuid());
 
             return ActionResult.SUCCESS;
         });

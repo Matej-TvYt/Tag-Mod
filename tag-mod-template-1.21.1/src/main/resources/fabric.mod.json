@@ -3,7 +3,7 @@
   "id": "tag-mod",
   "version": "1.0.0",
   "name": "Tag Mod",
-  "description": "Tag game mod",
+  "description": "Minecraft Tag Minigame Mod",
   "authors": ["MatejTvYt"],
   "license": "MIT",
 
@@ -14,15 +14,13 @@
       "com.example.tagmod.TagMod"
     ],
     "client": [
-      "com.example.tagmod.client.TagModClient",
-      "com.example.tagmod.client.TagEffectsClient"
+      "com.example.tagmod.client.TagModClient"
     ]
   },
 
   "depends": {
-    "fabricloader": ">=0.15.11",
+    "fabricloader": ">=0.15.0",
     "minecraft": "1.21.1",
-    "fabric-api": "*",
-    "java": ">=21"
+    "fabric-api": "*"
   }
 }
