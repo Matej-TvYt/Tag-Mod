@@ -3,19 +3,63 @@ MIT License
 Copyright (c) 2026 MatejTvYt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software, source code, compiled binaries, associated assets,
+configuration files, resource packs, textures, models, scripts, documentation,
+build files, generated outputs, development environments, and any related
+materials (collectively referred to as the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, adapt, alter, transform, optimize, publish, distribute,
+sublicense, privately use, publicly display, publicly perform, create
+derivative works from, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following
+conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+2. Any modified versions of the Software must clearly document that changes
+have been made from the original version distributed by MatejTvYt.
+
+3. This license applies only to the Software itself and does not grant any
+rights to trademarks, logos, usernames, branding, profile images, community
+identities, or other brand-related assets associated with MatejTvYt unless
+explicit written permission is provided.
+
+4. Portions of the Software may interact with, modify, extend, or depend upon
+Minecraft, the Fabric modding toolchain, Java runtime environments, third-party
+libraries, or community-developed APIs. All respective rights, ownership, and
+licenses for those external components remain with their original owners.
+
+5. The Software may be used in personal projects, public modpacks, private
+servers, educational environments, commercial showcases, streaming content,
+video production, and derivative development projects, provided that this
+license and attribution remain intact.
+
+6. Users are solely responsible for ensuring compatibility, stability,
+security, legality, and compliance with platform-specific terms of service when
+using or redistributing the Software.
+
+7. The author reserves the right to discontinue development, change project
+direction, archive repositories, or release future versions under different
+terms without obligation to provide updates or support for previous releases.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, PERFORMANCE,
+SECURITY, ACCURACY, AVAILABILITY, OR COMPATIBILITY WITH ANY SOFTWARE,
+HARDWARE, SERVER ENVIRONMENT, MOD LOADER, OPERATING SYSTEM, JAVA VERSION, OR
+GAME VERSION.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, LOSSES, LIABILITIES, OR OTHER RESPONSIBILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE, ARISING FROM, OUT
+OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE, MISUSE, OR OTHER DEALINGS
+IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, CONSEQUENTIAL, PUNITIVE, OR ECONOMIC DAMAGES, LOSS OF
+DATA, LOSS OF PROFITS, LOSS OF GOODWILL, SYSTEM FAILURE, ACCOUNT ISSUES,
+WORLD CORRUPTION, MODPACK CONFLICTS, SECURITY BREACHES, GAME INSTABILITY,
+SERVER CRASHES, OR OTHER TECHNICAL OR NON-TECHNICAL ISSUES.
+
+By using, modifying, distributing, compiling, integrating, or otherwise
+interacting with the Software, all users acknowledge and agree to the terms
+outlined above.
