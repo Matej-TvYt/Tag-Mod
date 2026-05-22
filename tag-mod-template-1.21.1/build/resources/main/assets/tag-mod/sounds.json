@@ -1,0 +1,10 @@
+{
+  "game_end": {
+    "sounds": [
+      {
+        "name": "tagmod:game_end",
+        "stream": false
+      }
+    ]
+  }
+}
