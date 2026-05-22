@@ -1,42 +1,95 @@
 # Tag Mod
 
-A fast-paced multiplayer Minecraft minigame for Fabric inspired by classic Tag — now featuring multiple gamemodes, freeze mechanics, sounds, glowing role effects, survival tracking, and customizable gameplay settings.
-
-Play with friends in LAN or multiplayer servers and survive as long as possible before getting caught.
+A multiplayer Minecraft tag minigame built for Fabric where players compete in fast-paced rounds using the roles: **Chaser**, **Runner**, and the new **Freezer** role in Freeze Mode.
 
 ---
 
-# Gamemodes
+## How to begin
+
+* Requires **2+ players**
+* Freeze Mode requires **3+ players**
+* All players must have the mod installed
+
+### Start the game
+
+```text
+/tagstart
+```
+
+### Stop the game
+
+```text
+/tagstop
+```
+
+---
+
+# Gameplay
 
 ## Classic Tag Mode
 
-One random player becomes the **Chaser** while everyone else becomes **Runners**.
-
+* One random player becomes the **Chaser**
+* All other players become **Runners**
 * If the Chaser hits a Runner:
 
   * the Runner becomes the new Chaser
   * the old Chaser becomes a Runner
 
-The goal is simple:
-**don't get tagged.**
+The goal is to avoid becoming the Chaser.
 
 ---
 
-## Freeze Mode
+# Freeze Mode
 
-A new survival-style Tag gamemode.
+Enable Freeze Mode using:
 
-### How it works
+```text
+/tag config freezeMode enable
+```
 
-* One player becomes the **Freezer**
-* Freezers can freeze Runners on hit
-* Frozen players become trapped inside ice cages
-* Runners can rescue teammates by breaking the ice
+Disable using:
+
+```text
+/tag config freezeMode disable
+```
+
+### Freeze Mechanics
+
+* One player is randomly selected as the **Freezer**
+* Freezers glow with an aqua outline
+* Runners glow normally
+* When a Freezer hits a Runner:
+
+  * the Runner becomes frozen
+  * an ice cage appears around the player
+  * the frozen player cannot move
+
+### Rescue System
+
+* Runners can rescue frozen teammates
+* Breaking the ice cage unfreezes the player
+* Unfreezed players return to the Runner role
+
+### Conversion System
+
 * If a frozen player is not rescued within 60 seconds:
 
-  * they become a new Freezer
+  * they automatically become a new Freezer
 
-When every Runner has been frozen, the round enters an ending countdown and displays the longest surviving player.
+### Round Ending
+
+* When all Runners are frozen:
+
+  * a 10-second countdown appears on everyone's HUD
+  * all ice cages break automatically
+  * the round ends
+  * the game displays the longest surviving player
+
+Example:
+
+```text
+ProGamer68 survived the longest: 4m 12s
+```
 
 ---
 
@@ -44,16 +97,18 @@ When every Runner has been frozen, the round enters an ending countdown and disp
 
 * Classic Tag gameplay
 * Freeze Mode gamemode
-* Multiplayer & LAN support
+* Ice cage freezing system
+* Runner rescue mechanics
+* Automatic Freezer conversion
 * HUD/actionbar role messages
 * Red glowing outline for Chasers
 * Aqua glowing outline for Freezers
-* Ice cage freezing system
-* Survival timer tracking
+* Survival time tracking
 * Round-end statistics
-* Sound effects & countdown audio
-* Configurable world border support
-* Automatic role syncing
+* Countdown system
+* Sound effects
+* Multiplayer & LAN support
+* World border configuration
 * Command-based controls
 
 ---
@@ -62,24 +117,30 @@ When every Runner has been frozen, the round enters an ending countdown and disp
 
 ## Main Commands
 
-* `/tagstart`
-* `/tagstop`
+```text
+/tagstart
+/tagstop
+```
 
 ## Freeze Mode
 
-* `/tag config freezeMode enable`
-* `/tag config freezeMode disable`
+```text
+/tag config freezeMode enable
+/tag config freezeMode disable
+```
 
 ## World Border
 
-* `/tag config worldBorder <size>`
-* `/tag config worldBorder normal`
+```text
+/tag config worldBorder <size>
+/tag config worldBorder normal
+```
 
 ---
 
 # Requirements
 
-* Minecraft Java Edition `1.21.1`
+* Minecraft **1.21.1**
 * Fabric Loader
 * Fabric API
 
@@ -87,14 +148,15 @@ When every Runner has been frozen, the round enters an ending countdown and disp
 
 # Important
 
-* All players must have the mod installed
-* Requires:
+* All players must install the mod
+* Works only in multiplayer/LAN
+* Minimum:
 
-  * 2+ players for Classic Mode
-  * 3+ players for Freeze Mode
+  * 2 players for Classic Mode
+  * 3 players for Freeze Mode
 
 ---
 
 # License
 
-Licensed under the MIT License.
+This project is licensed under the MIT License.
