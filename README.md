@@ -1,51 +1,100 @@
 # Tag Mod
 
-A simple multiplayer Minecraft Fabric mod where players play a tag game with roles: **Chaser** and **Runner**.
+A fast-paced multiplayer Minecraft minigame for Fabric inspired by classic Tag — now featuring multiple gamemodes, freeze mechanics, sounds, glowing role effects, survival tracking, and customizable gameplay settings.
+
+Play with friends in LAN or multiplayer servers and survive as long as possible before getting caught.
 
 ---
 
-## How to begin
+# Gamemodes
 
-- Requires **2+ players**
-- All players must have the mod installed
-- Start the game with:
-  - `/tagstart`
-- Stop the game with:
-  - `/tagstop`
+## Classic Tag Mode
 
-### Gameplay
-- One player is randomly selected as **Chaser**
-- All others are **Runners**
-- If the Chaser hits a Runner:
-  - The Runner becomes the new Chaser
-  - The previous Chaser becomes a Runner
+One random player becomes the **Chaser** while everyone else becomes **Runners**.
+
+* If the Chaser hits a Runner:
+
+  * the Runner becomes the new Chaser
+  * the old Chaser becomes a Runner
+
+The goal is simple:
+**don't get tagged.**
 
 ---
 
-## Features
+## Freeze Mode
 
-- Role switching
-- HUD messages for role changes
-- Player glow effect for Chaser
-- Simple command-based control
-- Works in multiplayer & LAN
+A new survival-style Tag gamemode.
 
----
+### How it works
 
-## Requirements
+* One player becomes the **Freezer**
+* Freezers can freeze Runners on hit
+* Frozen players become trapped inside ice cages
+* Runners can rescue teammates by breaking the ice
+* If a frozen player is not rescued within 60 seconds:
 
-- Minecraft **1.21.1**
-- Fabric API (mod)
+  * they become a new Freezer
 
----
-
-## Important
-
-- All players must install the mod
-- Works only when at least 2 players are online
+When every Runner has been frozen, the round enters an ending countdown and displays the longest surviving player.
 
 ---
 
-## License
+# Features
 
-This project is licensed under the MIT License (see LICENSE file)
+* Classic Tag gameplay
+* Freeze Mode gamemode
+* Multiplayer & LAN support
+* HUD/actionbar role messages
+* Red glowing outline for Chasers
+* Aqua glowing outline for Freezers
+* Ice cage freezing system
+* Survival timer tracking
+* Round-end statistics
+* Sound effects & countdown audio
+* Configurable world border support
+* Automatic role syncing
+* Command-based controls
+
+---
+
+# Commands
+
+## Main Commands
+
+* `/tagstart`
+* `/tagstop`
+
+## Freeze Mode
+
+* `/tag config freezeMode enable`
+* `/tag config freezeMode disable`
+
+## World Border
+
+* `/tag config worldBorder <size>`
+* `/tag config worldBorder normal`
+
+---
+
+# Requirements
+
+* Minecraft Java Edition `1.21.1`
+* Fabric Loader
+* Fabric API
+
+---
+
+# Important
+
+* All players must have the mod installed
+* Requires:
+
+  * 2+ players for Classic Mode
+  * 3+ players for Freeze Mode
+
+---
+
+# License
+
+Licensed under the MIT License.
